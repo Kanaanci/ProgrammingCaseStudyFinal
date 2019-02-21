@@ -1,0 +1,3429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div class="c byline">release_year=1980</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back">The Empire Strikes Back</a></td>
+<td class="r data">1980-05-17</td>
+<td class="r data">124</td>
+<td class="l data">The Adventure Continues...</td>
+<td class="l data">538400000</td>
+<td class="l data">18000000</td>
+<td class="l data">520400000</td>
+<td class="r data">76</td>
+<td class="l data">Gary Kurtz</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Norman Reynolds, Leslie Dilley, Harry Lange, Alan Tomkins; Set Decoration: Michael Ford</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back">The Empire Strikes Back</a></td>
+<td class="r data">1980-05-17</td>
+<td class="r data">124</td>
+<td class="l data">The Adventure Continues...</td>
+<td class="l data">538400000</td>
+<td class="l data">18000000</td>
+<td class="l data">520400000</td>
+<td class="r data">76</td>
+<td class="l data">Gary Kurtz</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">John Williams</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back">The Empire Strikes Back</a></td>
+<td class="r data">1980-05-17</td>
+<td class="r data">124</td>
+<td class="l data">The Adventure Continues...</td>
+<td class="l data">538400000</td>
+<td class="l data">18000000</td>
+<td class="l data">520400000</td>
+<td class="r data">76</td>
+<td class="l data">Gary Kurtz</td>
+<td class="l data">Sound</td>
+<td class="l data">Bill Varney, Steve Maslow, Gregg Landaker, Peter Sutton</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back">The Empire Strikes Back</a></td>
+<td class="r data">1980-05-17</td>
+<td class="r data">124</td>
+<td class="l data">The Adventure Continues...</td>
+<td class="l data">538400000</td>
+<td class="l data">18000000</td>
+<td class="l data">520400000</td>
+<td class="r data">76</td>
+<td class="l data">Gary Kurtz</td>
+<td class="l data">Special Achievement Award (Visual Effects)</td>
+<td class="l data">Brian Johnson, Richard Edlund, Dennis Muren, Bruce Nicholson</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data">The Shining</td>
+<td class="r data">1980-05-22</td>
+<td class="r data">144</td>
+<td class="l data">A masterpiece of modern horror.</td>
+<td class="l data">44017374</td>
+<td class="l data">19000000</td>
+<td class="l data">25017374</td>
+<td class="r data">12</td>
+<td class="l data">Stanley Kubrick</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data">The Blues Brothers</td>
+<td class="r data">1980-06-17</td>
+<td class="r data">133</td>
+<td class="l data">They&#39;ll never get caught. They&#39;re on a mission from God.</td>
+<td class="l data">115229890</td>
+<td class="l data">27000000</td>
+<td class="l data">88229890</td>
+<td class="r data">54</td>
+<td class="l data">John Landis</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data">Airplane!</td>
+<td class="r data">1980-07-02</td>
+<td class="r data">88</td>
+<td class="l data">What&#39;s slower than a speeding bullet, and able to hit tall buildings at a single bound?</td>
+<td class="l data">83453539</td>
+<td class="l data">3500000</td>
+<td class="l data">79953539</td>
+<td class="r data">23</td>
+<td class="l data">Jerry Zucker</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Actor in a Leading Role</td>
+<td class="l data">John Hurt</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Stuart Craig, Bob Cartwright; Set Decoration: Hugh Scaife</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Costume Design</td>
+<td class="l data">Patricia Norris</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Directing</td>
+<td class="l data">David Lynch</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Film Editing</td>
+<td class="l data">Anne V. Coates</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">John Morris</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data">The Elephant Man</td>
+<td class="r data">1980-10-02</td>
+<td class="r data">124</td>
+<td class="l data">I am not an animal! I am a human being! I... am... a man!</td>
+<td class="l data">26010864</td>
+<td class="l data">5000000</td>
+<td class="l data">21010864</td>
+<td class="r data">53</td>
+<td class="l data">David Lynch</td>
+<td class="l data">Writing (Screenplay Based on Material from Another Medium)</td>
+<td class="l data">Christopher DeVore, Eric Bergren, David Lynch</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Actor in a Leading Role</td>
+<td class="l data">Robert De Niro</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Actor in a Supporting Role</td>
+<td class="l data">Joe Pesci</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Actress in a Supporting Role</td>
+<td class="l data">Cathy Moriarty</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Cinematography</td>
+<td class="l data">Michael Chapman</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Directing</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Film Editing</td>
+<td class="l data">Thelma Schoonmaker</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data">Raging Bull</td>
+<td class="r data">1980-11-14</td>
+<td class="r data">129</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">23000000</td>
+<td class="l data">18000000</td>
+<td class="l data">5000000</td>
+<td class="r data">47</td>
+<td class="l data">Martin Scorsese</td>
+<td class="l data">Sound</td>
+<td class="l data">Donald O. Mitchell, Bill Nicholson, David J. Kimball, Les Lazarowitz</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data">Superman II</td>
+<td class="r data">1980-12-04</td>
+<td class="r data">127</td>
+<td class="l data">The Man of Steel meets his match!</td>
+<td class="l data">190458706</td>
+<td class="l data">54000000</td>
+<td class="l data">136458706</td>
+<td class="r data">50</td>
+<td class="l data">Richard Lester</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX1"></a>
+<div class="c byline">release_year=1981</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data"><a href="http://www.theofficialjohncarpenter.com/escape-from-new-york/">Escape from New York</a></td>
+<td class="r data">1981-05-22</td>
+<td class="r data">99</td>
+<td class="l data">1997. New York City is now a maximum security prison. Breaking out is impossible. Breaking in is insane.</td>
+<td class="l data">50244700</td>
+<td class="l data">6000000</td>
+<td class="l data">44244700</td>
+<td class="r data">14</td>
+<td class="l data">John Carpenter</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Norman Reynolds, Leslie Dilley; Set Decoration: Michael Ford</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Cinematography</td>
+<td class="l data">Douglas Slocombe</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Directing</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Film Editing</td>
+<td class="l data">Michael Kahn</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">John Williams</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Sound</td>
+<td class="l data">Bill Varney, Steve Maslow, Gregg Landaker, Roy Charman</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Visual Effects</td>
+<td class="l data">Richard Edlund, Kit West, Bruce Nicholson, Joe Johnston</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data"><a href="http://www.indianajones.com">Raiders of the Lost Ark</a></td>
+<td class="r data">1981-06-12</td>
+<td class="r data">115</td>
+<td class="l data">Indiana Jones - the new hero from the creators of JAWS and STAR WARS.</td>
+<td class="l data">389925971</td>
+<td class="l data">18000000</td>
+<td class="l data">371925971</td>
+<td class="r data">50</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Special Achievement Award (Sound Effects Editing)</td>
+<td class="l data">Ben Burtt, Richard L. Anderson</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Cinematography</td>
+<td class="l data">Jost Vacano</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Directing</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Film Editing</td>
+<td class="l data">Hannes Nikel</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Sound</td>
+<td class="l data">Milan Bor, Trevor Pyke, Mike Le-Mare</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Sound Effects Editing</td>
+<td class="l data">Mike Le-Mare</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data"><a href="http://www.dasboot.com">Das Boot</a></td>
+<td class="r data">1981-09-16</td>
+<td class="r data">149</td>
+<td class="l data">When the hunters become the hunted</td>
+<td class="l data">85000000</td>
+<td class="l data">14000000</td>
+<td class="l data">71000000</td>
+<td class="r data">29</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">Writing (Screenplay Based on Material from Another Medium)</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data">The Evil Dead</td>
+<td class="r data">1981-10-15</td>
+<td class="r data">85</td>
+<td class="l data">The Ultimate Experience In Grueling Terror</td>
+<td class="l data">29400000</td>
+<td class="l data">350000</td>
+<td class="l data">29050000</td>
+<td class="r data">10</td>
+<td class="l data">Sam Raimi</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data">Mad Max 2: The Road Warrior</td>
+<td class="r data">1981-12-24</td>
+<td class="r data">95</td>
+<td class="l data">When all that&#39;s left is one last chance, pray that he&#39;s still out there ... somewhere!</td>
+<td class="l data">24600832</td>
+<td class="l data">2000000</td>
+<td class="l data">22600832</td>
+<td class="r data">18</td>
+<td class="l data">George Miller</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX2"></a>
+<div class="c byline">release_year=1982</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data">Conan the Barbarian</td>
+<td class="r data">1982-04-02</td>
+<td class="r data">129</td>
+<td class="l data">Thief. Warrior. Gladiator. King.</td>
+<td class="l data">79114085</td>
+<td class="l data">20000000</td>
+<td class="l data">59114085</td>
+<td class="r data">17</td>
+<td class="l data">John Milius</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data"><a href="http://www.et20.com/">E.T. the Extra-Terrestrial</a></td>
+<td class="r data">1982-04-03</td>
+<td class="r data">115</td>
+<td class="l data">He is afraid. He is alone. He is three million light years from home.</td>
+<td class="l data">792910554</td>
+<td class="l data">10500000</td>
+<td class="l data">782410554</td>
+<td class="r data">13</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data">Star Trek II: The Wrath of Khan</td>
+<td class="r data">1982-06-03</td>
+<td class="r data">113</td>
+<td class="l data">At the end of the universe lies the beginning of vengeance.</td>
+<td class="l data">96800000</td>
+<td class="l data">12000000</td>
+<td class="l data">84800000</td>
+<td class="r data">16</td>
+<td class="l data">Nicholas Meyer</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data">Poltergeist</td>
+<td class="r data">1982-06-04</td>
+<td class="r data">114</td>
+<td class="l data">They&#39;re here.</td>
+<td class="l data">122200000</td>
+<td class="l data">10700000</td>
+<td class="l data">111500000</td>
+<td class="r data">16</td>
+<td class="l data">Tobe Hooper</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">Jerry Goldsmith</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data">Poltergeist</td>
+<td class="r data">1982-06-04</td>
+<td class="r data">114</td>
+<td class="l data">They&#39;re here.</td>
+<td class="l data">122200000</td>
+<td class="l data">10700000</td>
+<td class="l data">111500000</td>
+<td class="r data">16</td>
+<td class="l data">Tobe Hooper</td>
+<td class="l data">Sound Effects Editing</td>
+<td class="l data">Stephen Hunter Flick, Richard L. Anderson</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data">Poltergeist</td>
+<td class="r data">1982-06-04</td>
+<td class="r data">114</td>
+<td class="l data">They&#39;re here.</td>
+<td class="l data">122200000</td>
+<td class="l data">10700000</td>
+<td class="l data">111500000</td>
+<td class="r data">16</td>
+<td class="l data">Tobe Hooper</td>
+<td class="l data">Visual Effects</td>
+<td class="l data">Richard Edlund, Michael Wood, Bruce Nicholson</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data"><a href="http://www.warnerbros.com/blade-runner">Blade Runner</a></td>
+<td class="r data">1982-06-25</td>
+<td class="r data">117</td>
+<td class="l data">Man has made his match... now it&#39;s his problem.</td>
+<td class="l data">33139618</td>
+<td class="l data">28000000</td>
+<td class="l data">5139618</td>
+<td class="r data">19</td>
+<td class="l data">Ridley Scott</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Lawrence G. Paull, David L. Snyder; Set Decoration: Linda DeScenna</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data"><a href="http://www.warnerbros.com/blade-runner">Blade Runner</a></td>
+<td class="r data">1982-06-25</td>
+<td class="r data">117</td>
+<td class="l data">Man has made his match... now it&#39;s his problem.</td>
+<td class="l data">33139618</td>
+<td class="l data">28000000</td>
+<td class="l data">5139618</td>
+<td class="r data">19</td>
+<td class="l data">Ridley Scott</td>
+<td class="l data">Visual Effects</td>
+<td class="l data">Douglas Trumbull, Richard Yuricich, David Dryer</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data"><a href="http://www.theofficialjohncarpenter.com/the-thing/">The Thing</a></td>
+<td class="r data">1982-06-25</td>
+<td class="r data">109</td>
+<td class="l data">Man is The Warmest Place to Hide.</td>
+<td class="l data">19629760</td>
+<td class="l data">15000000</td>
+<td class="l data">4629760</td>
+<td class="r data">12</td>
+<td class="l data">John Carpenter</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data">First Blood</td>
+<td class="r data">1982-10-22</td>
+<td class="r data">93</td>
+<td class="l data">This time he&#39;s fighting for his life.</td>
+<td class="l data">125212904</td>
+<td class="l data">15000000</td>
+<td class="l data">110212904</td>
+<td class="r data">23</td>
+<td class="l data">Ted Kotcheff</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Actor in a Leading Role</td>
+<td class="l data">Ben Kingsley</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Stuart Craig, Bob Laing; Set Decoration: Michael Seirton</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Cinematography</td>
+<td class="l data">Billy Williams, Ronnie Taylor</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Costume Design</td>
+<td class="l data">John Mollo, Bhanu Athaiya</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Directing</td>
+<td class="l data">Richard Attenborough</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Film Editing</td>
+<td class="l data">John Bloom</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Makeup</td>
+<td class="l data">Tom Smith</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">Ravi Shankar, George Fenton</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Sound</td>
+<td class="l data">Gerry Humphreys, Robin O&#39;Donoghue, Jonathan Bates, Simon Kaye</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data">Gandhi</td>
+<td class="r data">1982-11-30</td>
+<td class="r data">191</td>
+<td class="l data">His triumph changed the world forever.</td>
+<td class="l data">77737889</td>
+<td class="l data">22000000</td>
+<td class="l data">55737889</td>
+<td class="r data">92</td>
+<td class="l data">Robert W. Laing</td>
+<td class="l data">Writing (Screenplay Written Directly for the Screen)</td>
+<td class="l data">John Briley</td>
+<td class="l data">Winner</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div class="c byline">release_year=1983</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi">Return of the Jedi</a></td>
+<td class="r data">1983-05-23</td>
+<td class="r data">135</td>
+<td class="l data">The Empire Falls...</td>
+<td class="l data">572700000</td>
+<td class="l data">32350000</td>
+<td class="l data">540350000</td>
+<td class="r data">128</td>
+<td class="l data">Richard Marquand</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Norman Reynolds, Fred Hole, James Schoppe; Set Decoration: Michael Ford</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi">Return of the Jedi</a></td>
+<td class="r data">1983-05-23</td>
+<td class="r data">135</td>
+<td class="l data">The Empire Falls...</td>
+<td class="l data">572700000</td>
+<td class="l data">32350000</td>
+<td class="l data">540350000</td>
+<td class="r data">128</td>
+<td class="l data">Richard Marquand</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">John Williams</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi">Return of the Jedi</a></td>
+<td class="r data">1983-05-23</td>
+<td class="r data">135</td>
+<td class="l data">The Empire Falls...</td>
+<td class="l data">572700000</td>
+<td class="l data">32350000</td>
+<td class="l data">540350000</td>
+<td class="r data">128</td>
+<td class="l data">Richard Marquand</td>
+<td class="l data">Sound</td>
+<td class="l data">Ben Burtt, Gary Summers, Randy Thom, Tony Dawe</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi">Return of the Jedi</a></td>
+<td class="r data">1983-05-23</td>
+<td class="r data">135</td>
+<td class="l data">The Empire Falls...</td>
+<td class="l data">572700000</td>
+<td class="l data">32350000</td>
+<td class="l data">540350000</td>
+<td class="r data">128</td>
+<td class="l data">Richard Marquand</td>
+<td class="l data">Sound Effects Editing</td>
+<td class="l data">Ben Burtt</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data"><a href="http://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi">Return of the Jedi</a></td>
+<td class="r data">1983-05-23</td>
+<td class="r data">135</td>
+<td class="l data">The Empire Falls...</td>
+<td class="l data">572700000</td>
+<td class="l data">32350000</td>
+<td class="l data">540350000</td>
+<td class="r data">128</td>
+<td class="l data">Richard Marquand</td>
+<td class="l data">Special Achievement Award (Visual Effects)</td>
+<td class="l data">Richard Edlund, Dennis Muren, Ken Ralston, Phil Tippett</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data"><a href="http://www.mgm.com/title_title.do?title_star=WARGAMES">WarGames</a></td>
+<td class="r data">1983-06-03</td>
+<td class="r data">114</td>
+<td class="l data">Is it a game, or is it real?</td>
+<td class="l data">79567667</td>
+<td class="l data">12000000</td>
+<td class="l data">67567667</td>
+<td class="r data">33</td>
+<td class="l data">John Badham</td>
+<td class="l data">Cinematography</td>
+<td class="l data">William A. Fraker</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data"><a href="http://www.mgm.com/title_title.do?title_star=WARGAMES">WarGames</a></td>
+<td class="r data">1983-06-03</td>
+<td class="r data">114</td>
+<td class="l data">Is it a game, or is it real?</td>
+<td class="l data">79567667</td>
+<td class="l data">12000000</td>
+<td class="l data">67567667</td>
+<td class="r data">33</td>
+<td class="l data">John Badham</td>
+<td class="l data">Sound</td>
+<td class="l data">Michael J. Kohut, Carlos de Larios, Aaron Rochin, Willie D. Burton</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data"><a href="http://www.mgm.com/title_title.do?title_star=WARGAMES">WarGames</a></td>
+<td class="r data">1983-06-03</td>
+<td class="r data">114</td>
+<td class="l data">Is it a game, or is it real?</td>
+<td class="l data">79567667</td>
+<td class="l data">12000000</td>
+<td class="l data">67567667</td>
+<td class="r data">33</td>
+<td class="l data">John Badham</td>
+<td class="l data">Writing (Screenplay Written Directly for the Screen)</td>
+<td class="l data">Lawrence Lasker, Walter F. Parkes</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data"><a href="http://www.mgm.com/view/movie/1394/Octopussy/">Octopussy</a></td>
+<td class="r data">1983-06-05</td>
+<td class="r data">131</td>
+<td class="l data">James Bond’s all time high.</td>
+<td class="l data">187500000</td>
+<td class="l data">27500000</td>
+<td class="l data">160000000</td>
+<td class="r data">83</td>
+<td class="l data">John Glen</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data">Trading Places</td>
+<td class="r data">1983-06-07</td>
+<td class="r data">116</td>
+<td class="l data">Some very funny business.</td>
+<td class="l data">90400000</td>
+<td class="l data">40600000</td>
+<td class="l data">49800000</td>
+<td class="r data">15</td>
+<td class="l data">John Landis</td>
+<td class="l data">Music (Original Song Score or Adaptation Score)</td>
+<td class="l data">Adaptation Score by Elmer Bernstein</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data">Scarface</td>
+<td class="r data">1983-12-08</td>
+<td class="r data">170</td>
+<td class="l data">The world is yours...</td>
+<td class="l data">65884703</td>
+<td class="l data">25000000</td>
+<td class="l data">40884703</td>
+<td class="r data">63</td>
+<td class="l data">Jerry Ziesmer</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX4"></a>
+<div class="c byline">release_year=1984</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data">Once Upon a Time in America</td>
+<td class="r data">1984-02-16</td>
+<td class="r data">229</td>
+<td class="l data">Crime, passion and lust for power - Sergio Leone&#39;s explosive saga of gangland America.</td>
+<td class="l data">Not Available</td>
+<td class="l data">30000000</td>
+<td class="l data">Not Available</td>
+<td class="r data">38</td>
+<td class="l data">Sergio Leone</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data">Footloose</td>
+<td class="r data">1984-02-17</td>
+<td class="r data">107</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">80035402</td>
+<td class="l data">8200000</td>
+<td class="l data">71835402</td>
+<td class="r data">13</td>
+<td class="l data">Herbert Ross</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data">Police Academy</td>
+<td class="r data">1984-03-22</td>
+<td class="r data">96</td>
+<td class="l data">What an Institution!</td>
+<td class="l data">146198896</td>
+<td class="l data">4500000</td>
+<td class="l data">141698896</td>
+<td class="r data">19</td>
+<td class="l data">Hugh Wilson</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data">The NeverEnding Story</td>
+<td class="r data">1984-04-05</td>
+<td class="r data">102</td>
+<td class="l data">A boy who needs a friend finds a world that needs a hero in a land beyond imagination!</td>
+<td class="l data">20158808</td>
+<td class="l data">27000000</td>
+<td class="l data" nowrap>-6841192</td>
+<td class="r data">17</td>
+<td class="l data">Wolfgang Petersen</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data"><a href="http://www.indianajones.com">Indiana Jones and the Temple of Doom</a></td>
+<td class="r data">1984-05-23</td>
+<td class="r data">118</td>
+<td class="l data">If adventure has a name... it must be Indiana Jones.</td>
+<td class="l data">333000000</td>
+<td class="l data">28000000</td>
+<td class="l data">305000000</td>
+<td class="r data">69</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Music (Original Score)</td>
+<td class="l data">John Williams</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data"><a href="http://www.indianajones.com">Indiana Jones and the Temple of Doom</a></td>
+<td class="r data">1984-05-23</td>
+<td class="r data">118</td>
+<td class="l data">If adventure has a name... it must be Indiana Jones.</td>
+<td class="l data">333000000</td>
+<td class="l data">28000000</td>
+<td class="l data">305000000</td>
+<td class="r data">69</td>
+<td class="l data">Steven Spielberg</td>
+<td class="l data">Visual Effects</td>
+<td class="l data">Dennis Muren, Michael McAlister, Lorne Peterson, George Gibbs</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data">Gremlins</td>
+<td class="r data">1984-06-07</td>
+<td class="r data">106</td>
+<td class="l data">Don&#39;t get him wet, keep him out of bright light, and never feed him after midnight.</td>
+<td class="l data">153083102</td>
+<td class="l data">11000000</td>
+<td class="l data">142083102</td>
+<td class="r data">18</td>
+<td class="l data">Joe Dante</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data">The Karate Kid</td>
+<td class="r data">1984-06-22</td>
+<td class="r data">126</td>
+<td class="l data">Only the &#39;Old One&#39; could teach him the secrets of the masters.</td>
+<td class="l data">90815558</td>
+<td class="l data">8000000</td>
+<td class="l data">82815558</td>
+<td class="r data">10</td>
+<td class="l data">John G. Avildsen</td>
+<td class="l data">Actor in a Supporting Role</td>
+<td class="l data">Noriyuki &#39;Pat&#39; Morita</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Actor in a Leading Role</td>
+<td class="l data">F. Murray Abraham</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Actor in a Leading Role</td>
+<td class="l data">Tom Hulce</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Patrizia Von Brandenstein; Set Decoration: Karel Cerny</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Cinematography</td>
+<td class="l data">Miroslav Ondricek</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Costume Design</td>
+<td class="l data">Theodor Pistek</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Directing</td>
+<td class="l data">Milos Forman</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Film Editing</td>
+<td class="l data">Nena Danevic, Michael Chandler</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Makeup</td>
+<td class="l data">Paul LeBlanc, Dick Smith</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Sound</td>
+<td class="l data">Mark Berger, Tom Scott, Todd Boekelheide, Chris Newman</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data">Amadeus</td>
+<td class="r data">1984-10-26</td>
+<td class="r data">160</td>
+<td class="l data">...Everything you&#39;ve heard is true</td>
+<td class="l data">51973029</td>
+<td class="l data">18000000</td>
+<td class="l data">33973029</td>
+<td class="r data">60</td>
+<td class="l data">Milo\u0161 Forman</td>
+<td class="l data">Writing (Screenplay Based on Material from Another Medium)</td>
+<td class="l data">Peter Shaffer</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data"><a href="http://www.mgm.com/#/our-titles/1970/The-Terminator/">The Terminator</a></td>
+<td class="r data">1984-10-26</td>
+<td class="r data">108</td>
+<td class="l data">Your future is in his hands.</td>
+<td class="l data">78371200</td>
+<td class="l data">6400000</td>
+<td class="l data">71971200</td>
+<td class="r data">33</td>
+<td class="l data">James Cameron</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">90</th>
+<td class="l data">A Nightmare on Elm Street</td>
+<td class="r data">1984-11-14</td>
+<td class="r data">91</td>
+<td class="l data">If Nancy Doesn&#39;t Wake Up Screaming, She Won&#39;t Wake Up At All!</td>
+<td class="l data">25504513</td>
+<td class="l data">1800000</td>
+<td class="l data">23704513</td>
+<td class="r data">29</td>
+<td class="l data">Wes Craven</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">91</th>
+<td class="l data">Beverly Hills Cop</td>
+<td class="r data">1984-11-29</td>
+<td class="r data">105</td>
+<td class="l data">The Heat Is On!</td>
+<td class="l data">316360478</td>
+<td class="l data">15000000</td>
+<td class="l data">301360478</td>
+<td class="r data">18</td>
+<td class="l data">Martin Brest</td>
+<td class="l data">Writing (Screenplay Written Directly for the Screen)</td>
+<td class="l data">Screenplay by Daniel Petrie, Jr.; Story by Danilo Bach, Daniel Petrie, Jr.</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">92</th>
+<td class="l data">Dune</td>
+<td class="r data">1984-12-14</td>
+<td class="r data">137</td>
+<td class="l data">A world beyond your experience, beyond your imagination.</td>
+<td class="l data">30925690</td>
+<td class="l data">40000000</td>
+<td class="l data" nowrap>-9074310</td>
+<td class="r data">21</td>
+<td class="l data">Kevin Phipps</td>
+<td class="l data">Sound</td>
+<td class="l data">Bill Varney, Steve Maslow, Kevin O&#39;Connell, Nelson Stoll</td>
+<td class="l data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div class="c byline">release_year=1985</div>
+<p/><div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Data Set WORK.MCO_MATCH_TLSORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs</th>
+<th class="l header" scope="col">title</th>
+<th class="r header" scope="col">release_date</th>
+<th class="r header" scope="col">runtime</th>
+<th class="l header" scope="col">tagline</th>
+<th class="l header" scope="col">revenue</th>
+<th class="l header" scope="col">budget</th>
+<th class="l header" scope="col">profitability</th>
+<th class="r header" scope="col">cast_size</th>
+<th class="l header" scope="col">director</th>
+<th class="l header" scope="col">award</th>
+<th class="l header" scope="col">name</th>
+<th class="l header" scope="col">winner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">93</th>
+<td class="l data">Brazil</td>
+<td class="r data">1985-02-20</td>
+<td class="r data">132</td>
+<td class="l data">It&#39;s only a state of mind.</td>
+<td class="l data">Not Available</td>
+<td class="l data">15000000</td>
+<td class="l data">Not Available</td>
+<td class="r data">22</td>
+<td class="l data">Terry Gilliam</td>
+<td class="l data">Art Direction</td>
+<td class="l data">Art Direction: Norman Garwood; Set Decoration: Maggie Gray</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">94</th>
+<td class="l data">Brazil</td>
+<td class="r data">1985-02-20</td>
+<td class="r data">132</td>
+<td class="l data">It&#39;s only a state of mind.</td>
+<td class="l data">Not Available</td>
+<td class="l data">15000000</td>
+<td class="l data">Not Available</td>
+<td class="r data">22</td>
+<td class="l data">Terry Gilliam</td>
+<td class="l data">Writing (Screenplay Written Directly for the Screen)</td>
+<td class="l data">Terry Gilliam, Tom Stoppard, Charles McKeown</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">95</th>
+<td class="l data">Rambo: First Blood Part II</td>
+<td class="r data">1985-05-21</td>
+<td class="r data">96</td>
+<td class="l data">What most people call hell, he calls home.</td>
+<td class="l data">300400432</td>
+<td class="l data">44000000</td>
+<td class="l data">256400432</td>
+<td class="r data">19</td>
+<td class="l data">George P. Cosmatos</td>
+<td class="l data">Sound Effects Editing</td>
+<td class="l data">Frederick J. Brown</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">96</th>
+<td class="l data"><a href="http://www.mgm.com/view/movie/2101/A-View-to-a-Kill/">A View to a Kill</a></td>
+<td class="r data">1985-05-24</td>
+<td class="r data">131</td>
+<td class="l data">Has James Bond finally met his match?</td>
+<td class="l data">152427960</td>
+<td class="l data">30000000</td>
+<td class="l data">122427960</td>
+<td class="r data">42</td>
+<td class="l data">John Glen</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">97</th>
+<td class="l data">Mad Max Beyond Thunderdome</td>
+<td class="r data">1985-06-29</td>
+<td class="r data">107</td>
+<td class="l data">Two men enter. One man leaves.</td>
+<td class="l data">36230219</td>
+<td class="l data">12305523</td>
+<td class="l data">23924696</td>
+<td class="r data">16</td>
+<td class="l data">George Miller</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">98</th>
+<td class="l data"><a href="http://www.backtothefuture.com/movies/backtothefuture1">Back to the Future</a></td>
+<td class="r data">1985-07-03</td>
+<td class="r data">116</td>
+<td class="l data">He&#39;s the only kid ever to get into trouble before he was born.</td>
+<td class="l data">381109762</td>
+<td class="l data">19000000</td>
+<td class="l data">362109762</td>
+<td class="r data">51</td>
+<td class="l data">Robert Zemeckis</td>
+<td class="l data">Sound</td>
+<td class="l data">Bill Varney, B. Tennyson Sebastian II, Robert Thirlwell, William B. Kaplan</td>
+<td class="l data">&nbsp;</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">99</th>
+<td class="l data"><a href="http://www.backtothefuture.com/movies/backtothefuture1">Back to the Future</a></td>
+<td class="r data">1985-07-03</td>
+<td class="r data">116</td>
+<td class="l data">He&#39;s the only kid ever to get into trouble before he was born.</td>
+<td class="l data">381109762</td>
+<td class="l data">19000000</td>
+<td class="l data">362109762</td>
+<td class="r data">51</td>
+<td class="l data">Robert Zemeckis</td>
+<td class="l data">Sound Effects Editing</td>
+<td class="l data">Charles L. Campbell, Robert Rutledge</td>
+<td class="l data">Winner</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">100</th>
+<td class="l data"><a href="http://www.backtothefuture.com/movies/backtothefuture1">Back to the Future</a></td>
+<td class="r data">1985-07-03</td>
+<td class="r data">116</td>
+<td class="l data">He&#39;s the only kid ever to get into trouble before he was born.</td>
+<td class="l data">381109762</td>
+<td class="l data">19000000</td>
+<td class="l data">362109762</td>
+<td class="r data">51</td>
+<td class="l data">Robert Zemeckis</td>
+<td class="l data">Writing (Screenplay Written Directly for the Screen)</td>
+<td class="l data">Robert Zemeckis, Bob Gale</td>
+<td class="l data">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
